@@ -2,9 +2,8 @@ import Web3 from 'web3'
 
 const settings = {
     protocol: 'http',
-    host: 'localhost',
-    port: '21115'
-    // port: '8545'
+    host: 'localhost', 
+    port: '8545'
 }
 
 export function provider() {
